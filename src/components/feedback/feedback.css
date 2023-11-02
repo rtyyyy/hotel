@@ -1,0 +1,18 @@
+.comments--wrapper{
+display: grid;
+grid-template-columns: 450px 450px 450px;
+grid-template-rows: 600px 600px ;
+}
+.comment__item--wrapper img{
+width: 400px;
+height: 300px;
+
+}
+.comment__item--wrapper h1{
+font-size: 20px;
+margin-top: 10px;
+}
+.comment__item--wrapper p{
+    max-width: 400px;
+
+}

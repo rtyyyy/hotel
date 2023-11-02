@@ -1,0 +1,21 @@
+.room__item--wrapper{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 600px 600px ;
+}
+.room__item{
+
+}
+.room__item img{
+    width: 400px;
+    height: 400px;
+}
+.room__item h2{
+text-decoration: none;
+font-size: 18px;
+max-width: 400px;
+}
+.room__item p{
+ font-size: 20px;
+ 
+}

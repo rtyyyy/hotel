@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/home/Home';
+import About from './components/about/about';
+import Contact from './components/contact/contact';
+import Feedback from './components/feedback/feedback';
+import News from './components/news/news';
+import Prices from './components/prices/prices';
+import Services from './components/services/services';
+import Room from './components/room/room';
+import RoomItem from './components/details/roomItem';
+import NewsItem from './components/details/newsItem';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route element={<Home/>} path='/'/>
+      <Route element={<About/>} path='/about'/>
+      <Route element={<Contact/>} path='/contact'/>
+      <Route element={<Feedback/>} path='/feedback'/>
+      <Route element={<News/>} path='/news'/>
+      <Route element={<Room/>} path='/room'/>
+      <Route element={<Prices/>} path='/prices'/>
+      <Route element={<Services/>} path='/services'/>
+      <Route element={<RoomItem/>} path='/roomItem/:id'/>
+      <Route element={<NewsItem/>} path='/newsItem/:id'/>
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.news__content--wrapper{
+    display: grid;
+    
+    grid-template-rows: 600px 600px ;
+    grid-template-columns: 500px 500px 500px;
+}
+
+.news__content--item {
+    max-width: 400px;
+}
+.news__content--item img{
+    width: 400px;
+    height: 300px;
+}

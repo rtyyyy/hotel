@@ -1,0 +1,40 @@
+.room__item--wrap img{
+    height: 400px;
+    width: 800px;
+}
+
+.room__item--wrap h1{
+    position: relative;
+    display: inline-block;
+}
+.room__item--wrap h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    border-bottom: 2px solid rgb(193, 202, 57);
+}
+.room__item--wrap p{
+    font-size: 18px;
+    max-width: 80%;
+}
+
+.news__item--img img{
+    width: 500px;
+    height: 400px;
+}
+.news__item--info{
+    margin: 30px;
+    margin-top: 0;
+    max-width: 40vw;
+}
+.news__item--info h1{
+    margin-top: 0;
+}
+.room__booking--button{
+    position: absolute;
+    left: 80vw;
+    top: 40vh;
+}

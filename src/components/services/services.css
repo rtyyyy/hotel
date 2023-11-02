@@ -1,0 +1,15 @@
+.services__content--wrapper{
+    display: grid;
+    
+    grid-template-rows: 600px 600px ;
+    grid-template-columns: 600px 600px;
+}
+
+.services__content--item {
+    max-width: 500px;
+    
+}
+.services__content--item img{
+    width: 500px;
+    height: 300px;
+}

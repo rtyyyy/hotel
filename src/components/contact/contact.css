@@ -1,0 +1,21 @@
+.contact__info--item h1{
+    font-weight: 300;
+    font-size: 46px;
+    position: relative;
+    display: inline-block;
+}
+.contact__info--item h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    border-bottom: 2px solid rgb(193, 202, 57);
+}
+.contact__info--item p{
+
+margin: 0;
+    font-size: 18px;
+
+}

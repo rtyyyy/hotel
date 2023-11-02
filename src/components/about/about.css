@@ -1,0 +1,26 @@
+
+
+
+
+
+.title--wrapper h1{
+    font-weight: 450;
+    font-size: 46px;
+    position: relative;
+    display: inline-block;
+}
+.title--wrapper h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    border-bottom: 3px solid rgb(193, 202, 57);
+}
+.content--wrapper p{
+    margin: 50px;
+    margin-left: 0;
+    font-size: 13px;
+    margin-right: 60px;
+}

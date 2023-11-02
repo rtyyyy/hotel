@@ -1,0 +1,52 @@
+.title--wrapper h2{
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title--wrapper h2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    border-bottom: 4px solid rgb(193, 202, 57);
+}
+.table__price--wrapper{
+    display: flex;
+    
+}
+.room__type--price {
+    text-align: start;
+    margin-left: 20vw;
+    
+}
+.room__header--price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    border: 1px solid rgba(167, 161, 161, 0.658);
+    padding-left: 10px;
+}
+.room__desc--price{
+    padding-left: 10px;
+    max-width: 350px;
+    border: 1px solid rgba(167, 161, 161, 0.452);
+    background: rgba(187, 185, 185, 0.466);
+}
+.room__desc--price p{
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.room__amount--price p{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+    height: 52.3px;
+    padding-left: 10px;
+    
+}
